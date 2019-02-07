@@ -20,4 +20,5 @@ install:
     -x :beam-sdks-java-maven-archetypes-examples:install
     -x :beam-runners-reference-job-server:install
     -x :beam-runners-flink-1.6-job-server:install
+    -x :beam-runners-flink_1.7-job-server:install
     -x :beam-runners-flink_2.11-job-server:install
