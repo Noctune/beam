@@ -15,4 +15,7 @@
 # limitations under the License.
 
 install:
-  - ./gradlew install -x :beam-sdks-java-maven-archetypes-examples:install
+  - >
+    ./gradlew install
+    -x :beam-sdks-java-maven-archetypes-examples:install
+    -x :beam-runners-reference-job-server:install
