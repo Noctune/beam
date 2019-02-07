@@ -19,4 +19,4 @@ install:
     ./gradlew install
     -x :beam-sdks-java-maven-archetypes-examples:install
     -x :beam-runners-reference-job-server:install
-
+    -x :beam-runners-flink-1.6-job-server:install
