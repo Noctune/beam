@@ -17,4 +17,4 @@
 install:
 - >
   ./gradlew -Ppublishing -PnoSigning publishMavenJavaPublicationToMavenLocal
-  -x beam-sdks-java-maven-archetypes-examples:publishMavenJavaPublicationToTestPublicationLocalRepository
+  -x beam-sdks-java-maven-archetypes-examples:publishMavenJavaPublicationToMavenLocal
