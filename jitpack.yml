@@ -17,5 +17,4 @@
 install:
 - >
   ./gradlew -Ppublishing -PnoSigning publishMavenJavaPublicationToMavenLocal
-  -x beam-sdks-java-maven-archetypes-examples:generatePomFileForMavenJavaPublication
-  -x beam-sdks-java-maven-archetypes-examples:generateSources
+  -x beam-sdks-java-maven-archetypes-examples:publishMavenJavaPublicationToTestPublicationLocalRepository
